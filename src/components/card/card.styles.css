@@ -1,0 +1,20 @@
+.grid-item {
+	background-color: rgba(240, 248, 255, 0.9);
+	padding: 1vw 1vw 2vw 1vw;
+	margin: 1vw 2vw 1vw 2vw;
+	color: #282c34;
+	box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+	border-radius: 5px 5px 5px 5px;
+	height: 35vh;
+	font-size: 1.3vw;
+}
+.grid-item:hover {
+	box-shadow: 0 8px 16px 0 rgb(75, 75, 75);
+	background-color: rgba(240, 248, 255, 0.99);
+}
+
+.item-id {
+	font-size: 2vw;
+	text-align: left;
+	font-family: monospace;
+}
